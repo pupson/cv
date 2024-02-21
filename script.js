@@ -245,13 +245,6 @@ class Mother {
     this.mother_container_elm = document.querySelector("#mother_container");
     this.lines_copy_array = opts.lines_copy_array || ["HELLO WORLD!!"];
     this.cmd_seq = opts.cmd_seq || [{ type: "line", copy: "HELLO WORLD!" }];
-    this.type_src =
-      opts.type_src || "https://assets.codepen.io/927237/alien_keys.mp3";
-    this.beep_src =
-      opts.beep_src || "https://assets.codepen.io/927237/beep.wav";
-    this.boot_src =
-      opts.boot_src || "https://assets.codepen.io/927237/boot.mp3";
-    this.detail_beep_src = opts.detail_beep_src || "https://assets.codepen.io/927237/detail_beep.mp3";
     this.lines = [];
     this.cmds = [];
     this.build();
