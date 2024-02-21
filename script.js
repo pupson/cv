@@ -1,4 +1,4 @@
-gsap.registerPlugin(SplitText);
+//gsap.registerPlugin(SplitText);
 class Line {
   constructor(opts) {
     this.line_container = opts.line_container;
