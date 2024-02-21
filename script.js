@@ -192,8 +192,8 @@ class BootScreen {
     }.bind(this));
         
     this.root_elm.prepend(this.details_screen);
-    
-    this.details_splitting = new SplitText(this.details_screen, { type: "words,chars",charsClass:'char' });
+
+
     
     this.mother_container_elm.appendChild(this.root_elm);
   } //build
