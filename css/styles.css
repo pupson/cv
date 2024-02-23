@@ -23,8 +23,8 @@ h2 {
 h3 {
   color: #22577E;
   font-weight: normal;
+  margin: 20px;
   animation: fadeInUp 1s ease-in-out;
-  margin: 10px;
 }
 
 .profile img {
