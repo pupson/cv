@@ -13,6 +13,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.custom-paragraph {
+  text-align: justify; left;
+}
+
 h2 {
   color: #394867;
   font-size: 1.5rem;
