@@ -1,6 +1,6 @@
 .parent {
   display: grid;
-  grid-template-columns: .25fr repeat(3, .5fr) 3fr;
+  grid-template-columns: .25fr repeat(3, .5fr) 5fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -42,7 +42,7 @@ h2 {
 h3 {
   color: #22577E;
   font-weight: normal;
-  margin: 20px;
+  margin: 5px;
   animation: fadeInUp 1s ease-in-out;
 }
 
