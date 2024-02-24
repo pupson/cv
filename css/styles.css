@@ -1,7 +1,7 @@
 .skill-row-left {
   display: grid;
   grid-template-columns: repeat(4, .25fr) 5fr;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(8, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
