@@ -4,6 +4,7 @@
   grid-template-rows: repeat(8, auto);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  align-items: start;
   }
   
   .div1 { grid-area: 1 / 1 / 2 / 2; }
