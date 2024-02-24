@@ -65,7 +65,8 @@ h1 {
 }
 
 .custom-paragraph {
-  text-align: justify; left;
+  text-align: left;
+  margin: 10px;
   font-family: 'Roboto', sans-serif;
   animation: fadeInUp 1s ease-in-out;
 }
@@ -80,7 +81,7 @@ h2 {
 h3 {
   color: #22577E;
   font-weight: normal;
-  margin: 5px;
+  margin: 10px;
   animation: fadeInUp 1s ease-in-out;
 }
 
