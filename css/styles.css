@@ -165,7 +165,7 @@ td {
   text-decoration: none;
   background-color: #87a4dd !important; /* Set your preferred background color */
   color: #FFFFFF !important; /* Set your preferred text color */
-  border-radius: 5px;
+  border-radius: 5px !important;
   transition: background-color 0.3s ease-in-out;
 }
 
