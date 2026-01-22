@@ -1,692 +1,411 @@
-
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Pete Upson</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/peterwupson/" target="_blank">LinkedIn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/pupson" target="_blank">Github</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.imdb.com/name/nm1849644/" target="_blank">IMDB</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:peterupson.work@gmail.com">Contact Me</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Interests
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://github.com/pupson" target="_blank">Coding</a>
-            <a class="dropdown-item" href="3d.html" target="_self">3D</a>
-            <a class="dropdown-item" href="game.html" target="_self">Game Design</a>
-            <a class="dropdown-item" href="film.html" target="_self">Filmmaking</a>
-            <a class="dropdown-item" href="art.html" target="_self">Illustration</a>
-            <a class="dropdown-item" href="photos.html"  target="_self">Photography</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="aviation.html"  target="_self">Aviation</a>
-            <a class="dropdown-item" href="motorcycle.html"  target="_self">Motorcycles</a>
-            <a class="dropdown-item" href="travel.html" target="_self">Travel</a>
-            <a class="dropdown-item" href="outdoors.html" target="_self">Outdoors</a>
-            
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-  <head>
-    <meta charset="utf-8">
-    <title>Pete Upson</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete Upson - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Pete Upson</a>
+            <div class="nav-menu">
+                <a href="https://www.linkedin.com/in/peterwupson/" target="_blank" class="nav-link">LinkedIn</a>
+                <a href="https://github.com/pupson" target="_blank" class="nav-link">Github</a>
+                <a href="https://www.imdb.com/name/nm1849644/" target="_blank" class="nav-link">IMDB</a>
+                <a href="mailto:peterupson.work@gmail.com" class="nav-link nav-cta">Contact Me</a>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-grid">
+            <!-- Profile Card -->
+            <div class="bento-card card-profile">
+                <img src="img/pupson.png" alt="Pete Upson" class="profile-img">
+                <h1>Pete Upson</h1>
+                <p class="subtitle">Technical Manager, Technical Artist, Technical Director</p>
+                <p class="location">San Francisco Bay Area</p>
+            </div>
 
-  <body>   
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <div class="container-fluid">
-        <div class="row gx-5"><br></div>
-        <div class="row gx-5"><br></div>
-        <div class="row gx-5"><br></div>
-        <div class="row gx-5"><br></div>
-        <div class="row justify-content-center">
-        <img src="img/pupson.png" alt="Pete Upson profile pic">
-    </div>
-  </div> 
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <h3>Technical Manager, Technical Artist, Technical Director residing in the SF Bay Area</h3>
-  </div>
-</div>
+            <!-- Quick Stats -->
+            <div class="bento-card card-stat">
+                <div class="stat-number">20+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
 
-<div class="container-fluid">
-  <hr>
-        <h2>Experience</h2>
-        <div class="row gx-5"><br></div>
-        <div class="row gx-5">
-        <div class="container.col-2 px-4"> <img class="left-logo" src="img/pixar.png" alt="pixar_logo"></div>
-        <div class="container.col-6 px-4">
-            <div class="container">
-              <div class="col-lg-12">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                      <h4 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                          <i class="accordion_icon fa fa-minus"></i>  <b>Pixar: </b>Global Technology Technical Director
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
-                      <div class="panel-body"><b>2022-Present </b><br>
-                        <br>
-                        Global software development and tool support for all aspects of the Pixar pipeline, including Python tools for Houdini (VEX), Katana (Lua, Opscript, CEL), Maya (MEL, PyQt), Presto, Perforce, USD assets, and proprietary database interface tools (SQL).<br>
-                        <br>
-                        • Coded a customizable slate overlay plugin for Autodesk’s OpenRV. Plugin interfaced with media source data and queried production databases to display current take and department statuses.<br>
-                        • Created a pipeline for layout and lighting artists to allow setting obscuring geometry invisible to camera rays in Pixar’s proprietary 3D application, Presto. Set geo is tagged with a custom USD attribute that persists through shot conversion to Katana renders.<br>
-                        • Programmed exception catching and reporting for the motion graphics pipeline, auto creating database error reports and sending alert emails to relevant users.<br>
-                        • Created multiple automated scripts for layout and character departments and packaged operations into PyQT guis for ease of use.<br>
-                        • Programmed automated cron render tasks for characters and lighting.<br>
-                        • Unified UV garment pipeline tools from multiple show branches and debugged incompatible code to create one master tool.<br>
-                        • Debugged several proprietary tool errors, added exception handling and reporting.<br>
-                        • Created a quadruped rigging character sheet for characters and animation.<br>
-                        • Assisted character artists in the creation of custom lookdev test shots.<br>
-                        • Debugged Houdini export, conversion, and render scripts for fx-driven volume characters.<br>
-                        • Debugged, troubleshot, and worked cross-functionally with engineers and artists to resolve USD errors with assets, scenes, and materials.<br>
-                        • Performed Previz/Layout Artist duties. <br>
-                        <br>
-                        • Currently learning C++ and applications for Machine Learning in the studio pipeline. <br>
-                        <br>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="bento-card card-stat">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Major Studios</div>
             </div>
-          </div>
-        </div>
-        </div>
-        <div class="row gx-5"><br><br></div>
-        <div class="row gx-5">
-          <div class="container.col-2 px-4"><img class="left-logo" src="img/meta_logos.png" alt="meta_logo"></div>
-          <div class="container.col-6 px-4">
-            <div class="container">
-              <div class="col-lg-12">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                      <h4 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          <i class="accordion_icon fa fa-plus"></i> <b>Meta:</b> Technical Artist
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                      <div class="panel-body">
-                        <p class="custom-paragraph"><b>2019-2022 </b><br><br>Technical Artist on the Facebook/Meta Avatar sticker team: Collaborated with cross-functional engineering and art teams to create and manage artist pipelines for the 2.5D and 3D Avatar Sticker character products.<br>
-                          <br>                         
 
-                        • Built and managed the artist/vender pipeline between Maya, Photoshop, Blender, Illustrator, Perforce, Shotgrid, Spark, and the proprietary Facebook render ecosystem.<br>
-                        • Created several new product feature pipelines, including adding profile pics, cover photos, super awesome text posts, and more customizable looks like jewelry, tattoos, and DEI user options.<br>
-                        • Programmed Photoshop menu plugins and templates to automate repetitive designer tasks like the import/export and organization of thousands of assets.<br>
-                        • Coded an automated QA tool that generated a series of test images and compositions for creative review.<br>
-                        • Built and automated the customizable emoji reaction product matching to avatar features.<br>
-                        • Prototyped and engineered shader and lighting solutions to increase mobile render performance.<br>
-                        • Wrote a Maya toolshelf of creation and posing tools for our 3D artists with PyQT.<br>
-                        • Identified and updated tools in our pipeline to the new 3D assets.<br>
-                        • Migrated our Maya tools from generic Maya gui boxes to customized, dynamic, polished Python QT windows.       <br>
-                        • Created automated Photoshop templates with custom mattes, guides, and layers for our design team and vendors.<br>
-                        • Programmed a Blender pipeline to round trip convert customized glb assets into poseable fbx Maya scenes.<br>
-                        • Prototyped and collaborated cross-functionally with the 3D Avatar team to create the first working animated sticker product and build a functional, performant 3D animated sticker pipeline.<br>
-                        • Designed and created interactive AR/VR experiences with Facebook’s proprietary real-time tool, Spark.<br>
-                        • Wrote tool documentation and technical specs for product and tool requests.<br>
-                        • Setup and maintained the Perforce database for our local artists and remote vendors. Migrated our pipeline from Dropbox and Google Drive to Perforce.<br>
-                        • Created and delivered vendor packages. Managed vendor deliveries and organized our asset database.<br>
-                        • Trained artists and vendors on the sticker pipeline, fielded tool requests, and provided daily support.<br>
-                        • Coded tools in Python (PyQT), Javascript, Extendscript, MEL, C#, and HLSL/GLSL.<br>
-                          • Worked cross functionally with London-based engineers to increase performance including omitting transparencies, excluding similar pixel rendering, and experimenting with different shader/material libraries.<br> 
-                          <br>
-                          
-                          Portal AR Team:  Technical Artist on the Portal TV (codename "Catalina") AR team, designing and creating AR/VR prototypes with Unity, Spark, C#, and Javascript. <br>
-                          <br>
-                          • Prototyped and assisted in the creation of online multiplayer AR Lip Sync experience.<br>
-                          • Created playable prototypes in Unity, using an Xbox connect to simulate the potential AR capabilities of the incomplete Catalina unit.<br>
-                          • Conceptualized and developed Unity UI/UX designs.<br>
-                          • Developed full navigable menu systems, a interactable dressing room with constrained props and the logic and flow of the lip sync experience itself with simulated FX.<br>
-                          • Directed our vendors in the creation of final assets, adapted heavy assets to make them performant, and wrote HLSL shaders to replace textures to further increase performance.<br>
-                          • Worked with the game developers and engineers to code Unity C# game scripts, setup scenes, and wire and animate assets.<br>
-                          • Managed a cross-functional effort with the Facebook Audio team to integrate their beat detection software to drive our effects logic.<br>
-                          • Created, animated, programmed, the cameras, assets, and effects in the final game.<br>
-                          <br>
-                        </p>
+            <!-- Interests Card -->
+            <div class="bento-card card-interests">
+                <h3>Interests</h3>
+                <div class="interests-grid">
+                    <a href="https://github.com/pupson" target="_blank" class="interest-tag">Coding</a>
+                    <a href="3d.html" class="interest-tag">3D</a>
+                    <a href="game.html" class="interest-tag">Game Design</a>
+                    <a href="film.html" class="interest-tag">Filmmaking</a>
+                    <a href="art.html" class="interest-tag">Illustration</a>
+                    <a href="photos.html" class="interest-tag">Photography</a>
+                    <a href="aviation.html" class="interest-tag">Aviation</a>
+                    <a href="motorcycle.html" class="interest-tag">Motorcycles</a>
+                    <a href="travel.html" class="interest-tag">Travel</a>
+                    <a href="outdoors.html" class="interest-tag">Outdoors</a>
+                </div>
+            </div>
+        </section>
 
-                      </div>
+        <!-- Experience Section -->
+        <section class="section-header">
+            <h2>Experience</h2>
+        </section>
+
+        <div class="experience-grid">
+            <!-- Nvidia -->
+            <div class="bento-card card-experience card-large">
+                <div class="company-header">
+                    <img src="img/nvidia.png" alt="Nvidia" class="company-logo">
+                    <div>
+                        <h3>Senior Technical Artist</h3>
+                        <p class="company-name">Nvidia</p>
+                        <p class="duration">2025-Present</p>
                     </div>
-                  </div>
                 </div>
-                <a id="youtube-link" class="link" href="unity.html" target="_self">
-                  <i aria-hidden="true"></i>                  
-                <span class="roboto-mono">Facebook Technical Artist Work Examples</span>
-              </a>
+                <div class="experience-content">
+                    <p>Senior Technical Artist working on cutting-edge graphics and AI technologies.</p>
+                    <ul class="highlights">
+                        <li>Building USD-based pipeline for Nvidia's Omniverse platform</li>
+                        <li>Creating interactive demos for the Executive Briefing Center at Nvidia's HQ</li>
+                        <li>Developing advanced rendering pipelines and real-time graphics solutions</li>
+                        <li>Collaborating with engineering teams on GPU-accelerated workflows</li>
+                        <li>Implementing AI-driven tools for content creation and optimization</li>
+                        <li>Creating technical documentation and training materials for new technologies</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row gx-5"><br><br></div>
-      <div class="row gx-5">
-        <div class="container.col-2 px-4"><img class="left-logo" src="img/ilm_logo.png" alt="ilm_logo"></div>
-        <div class="container.col-6 px-4">
-          <div class="container">
-            <div class="col-lg-12">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingFour">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <i class="accordion_icon fa fa-plus"></i><b> Lucasfilm/ILM:  </b>Technical Director, Story Artist, Layout Artist
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                    <div class="panel-body">
-                      <p class="custom-paragraph"><b>2017-2019 </b><br>• Spearheaded company-wide reorganization of 3D Star Wars franchise 
-                        library and delivery system cutting asset request turnaround times from 2 weeks to 2 days. <br>
-                        • Created process design, prototyped, and technically managed cross-functional teams in 
-                        the creation of a product delivery application that eliminated work order redundancy and 
-                        ensured security of thousands of multi-million dollar assets. <br>
-                        • Responsible for the curation, technical fidelity, creative quality checking, and story 
-                        continuity use of all digital Star Wars franchise products across 12 multi-million dollar 
-                        projects in film, games, parks, and animation including Star Wars: The Last Jedi, Solo: 
-                        A Star Wars Story, EA's Star Wars Battlefront 2, Star Wars Resistance, Rebels, Mandalorian, 
-                        and the Galaxy's Edge attraction at Disneyland. <br>
-                        • Performed essential creative and technical tasks for the completion of 3 blockbuster 
-                        feature films and one television series grossing over $1.5 billion. Projects included 
-                        Solo: A Star Wars Story, Transformers: The Last Knight, Ready Player One, and The Clone 
-                        Wars animated series. <br>
-                        • Artist duties included storyboarding, previs, camera layout, matchmove, matchamation, 
-                        and photogrammetry, LIDAR processing, set extension modeling, 2D and 3D Stereoscopy,
-                        Python tool scripting, and technical shot setup.
-                        </p>
+
+            <!-- Pixar -->
+            <div class="bento-card card-experience card-large">
+                <div class="company-header">
+                    <img src="img/pixar.png" alt="Pixar" class="company-logo">
+                    <div>
+                        <h3>Global Technology Technical Director</h3>
+                        <p class="company-name">Pixar</p>
+                        <p class="duration">2022-2025</p>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <a id="youtube-link" class="link" href="https://youtu.be/yCO4yNUVmaA" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Clone Wars Previs/Story Work</span>
-              </a>
-              <a id="youtube-link" class="link" href="https://youtu.be/H6pD2V5Y1BA" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Camera Layout Work</span>
-              </a>
-          </div>
+                <div class="experience-content">
+                    <p>Global software development and tool support for all aspects of the Pixar pipeline, including Python tools for Houdini (VEX), Katana (Lua, Opscript, CEL), Maya (MEL, PyQt), Presto, Perforce, USD assets, and proprietary database interface tools (SQL).</p>
+                    <ul class="highlights">
+                        <li>Coded customizable slate overlay plugin for Autodesk's OpenRV with production database integration</li>
+                        <li>Created pipeline for layout and lighting artists with custom USD attribute persistence</li>
+                        <li>Programmed exception catching and reporting for motion graphics pipeline</li>
+                        <li>Created automated PyQT guis for layout and character departments</li>
+                        <li>Conducted research and implemented AI Machine Learning workflowsin the studio pipeline</li>
+                        <li>Performed layout, lighting, comp, and rendering artist duties on multiple projects</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Meta -->
+            <div class="bento-card card-experience card-large">
+                <div class="company-header">
+                    <img src="img/meta_logos.png" alt="Meta" class="company-logo">
+                    <div>
+                        <h3>Technical Artist</h3>
+                        <p class="company-name">Meta</p>
+                        <p class="duration">2019-2022</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p>Technical Artist on the Facebook/Meta Avatar sticker team. Collaborated with cross-functional engineering and art teams to create and manage artist pipelines for 2.5D and 3D Avatar Sticker character products.</p>
+                    <ul class="highlights">
+                        <li>Built and managed artist/vendor pipeline between Maya, Photoshop, Blender, Illustrator, Perforce, Shotgrid, and Spark</li>
+                        <li>Programmed Photoshop menu plugins to automate designer tasks for thousands of assets</li>
+                        <li>Coded automated QA tool generating test images for creative review</li>
+                        <li>Prototyped first working animated sticker product with 3D Avatar team</li>
+                    </ul>
+                    <a href="unity.html" class="card-link">View Work Examples <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- ILM -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/ilm_logo.png" alt="ILM" class="company-logo">
+                    <div>
+                        <h3>Technical Director</h3>
+                        <p class="company-name">Lucasfilm/ILM</p>
+                        <p class="duration">2017-2019</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <ul class="highlights">
+                        <li>Spearheaded company-wide Star Wars franchise library reorganization</li>
+                        <li>Cut asset request turnaround from 2 weeks to 2 days</li>
+                        <li>Worked on Solo, Transformers: The Last Knight, Ready Player One, Clone Wars</li>
+                    </ul>
+                    <div class="card-links">
+                        <a href="https://youtu.be/yCO4yNUVmaA" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> Clone Wars Work</a>
+                        <a href="https://youtu.be/H6pD2V5Y1BA" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> Camera Layout</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Viscira -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/vis_logo.png" alt="Viscira" class="company-logo">
+                    <div>
+                        <h3>Creative Lead</h3>
+                        <p class="company-name">Viscira</p>
+                        <p class="duration">2016-2017</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <ul class="highlights">
+                        <li>Managed 10-person team creating 3D and AR/VR medical products</li>
+                        <li>Managed projects ranging $100K-$1M+ budgets</li>
+                        <li>Client-facing manager for Novartis and Boehringer Ingelheim</li>
+                    </ul>
+                    <a href="https://www.youtube.com/watch?v=KWVC0zBR0-o" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> Medical Animation</a>
+                </div>
+            </div>
+
+            <!-- Telltale -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/ttg_logo.png" alt="Telltale Games" class="company-logo">
+                    <div>
+                        <h3>Cinematic Artist</h3>
+                        <p class="company-name">Telltale Games</p>
+                        <p class="duration">2015-2016</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p class="projects">Game of Thrones, Tales from the Borderlands, Minecraft: Story Mode, The Walking Dead</p>
+                    <a href="https://www.youtube.com/watch?v=mFfYxXtJQsg" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> View Reel</a>
+                </div>
+            </div>
+
+            <!-- Dreamworks -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/dwa_logo.png" alt="Dreamworks" class="company-logo">
+                    <div>
+                        <h3>Layout Lead, Senior Layout Artist</h3>
+                        <p class="company-name">PDI Dreamworks</p>
+                        <p class="duration">2007-2015</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <ul class="highlights">
+                        <li>Supervised 5-10 person in-house and remote creative teams</li>
+                        <li>Developed workflows and programmed tools in MEL and Python</li>
+                        <li>Worked on Madagascar, How to Train Your Dragon franchises</li>
+                    </ul>
+                    <a href="https://www.youtube.com/watch?v=EeG7rdieyS4" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> Layout Work</a>
+                </div>
+            </div>
+
+            <!-- Sony -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/sony_logo.png" alt="Sony" class="company-logo">
+                    <div>
+                        <h3>Layout Artist</h3>
+                        <p class="company-name">Sony Imageworks/Animation</p>
+                        <p class="duration">2005-2007</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <p class="projects">Beowulf 3D, Spiderman 3, Surf's Up, Monster House</p>
+                    <a href="https://www.youtube.com/watch?v=fVaqp_fUYCE" target="_blank" class="card-link-small"><i class="fa fa-youtube-play"></i> Early Work</a>
+                </div>
+            </div>
+
+            <!-- USAF -->
+            <div class="bento-card card-experience">
+                <div class="company-header">
+                    <img src="img/usaf_logo.png" alt="USAF" class="company-logo">
+                    <div>
+                        <h3>First Pilot, C5</h3>
+                        <p class="company-name">United States Air Force</p>
+                        <p class="duration">1998-2002</p>
+                    </div>
+                </div>
+                <div class="experience-content">
+                    <ul class="highlights">
+                        <li>Piloted 3rd largest airframe in the world</li>
+                        <li>Supervised maintenance of $85M airframe</li>
+                        <li>Managed aircrews of up to 20 personnel</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-      </div>
-    </div>
-    <div class="row gx-5"><br><br></div>
-    <div class="row gx-5">
-      <div class="container.col-2 px-4"><img class="left-logo" src="img/vis_logo.png" alt="vis_logo"></div>
-      <div class="container.col-6 px-4">
-        <div class="container">
-          <div class="col-lg-12">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingFive">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      <i class="accordion_icon fa fa-plus"></i><b> Viscira:</b> Creative Lead
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                  <div class="panel-body">
-                    <p class="custom-paragraph"><b>2016-2017 </b><br>• Managed a team of 10 technical artists to create multi-million dollar 3D
-                      and AR/VR media products for the pharmaceutical industry. <br>
-                      • Forecasted staffing needs for 10-20 person teams, strategized product scope to manage multiple 
-                      concurrent projects, ranging $100K-$1M+ budgets, 4-24 weeks duration. <br>
-                      • Client-facing manager for product vision and iteration pitching to big pharmaceutical clients  
-                      including Novartis and Boehringer Ingelheim. <br>
-                      • Collaborated with cross-functional design, development, sales, production, and remote contractor 
-                      teams to drive 100% successful project completion. <br>
-                      • 3D Generalist duties including modeling, rigging, previs, animation, lighting, effects, rendering,  
-                      and editing.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <a id="youtube-link" class="link" href="https://www.youtube.com/watch?v=KWVC0zBR0-o" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Medical Animation Projects</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row gx-5"><br><br></div>
-      <div class="row gx-5">
-        <div class="container.col-2 px-4"><img class="left-logo" src="img/ttg_logo.png" alt="ttg_logo"></div>
-        <div class="container.col-6 px-4">
-          <div class="container">
-            <div class="col-lg-12">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingSix">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        <i class="accordion_icon fa fa-plus"></i><b>Telltale Games: </b>Cinematic Artist
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                    <div class="panel-body"><p class="custom-paragraph"><b>2015-2016 </b><br>• Adapted script pages into interactive cinematic scenes for episodic games. 
-              Integrated animation libraries, edited audio and shot pacing, staged cameras and actors, and problem solved 
-              technical problems in a proprietary software pipeline.<br>
-              • Performed Jira-driven, cross-discipline quality assurance for assigned scenes. <br>
-              • Trained, coached, and mentored new team members. <br>
-              <br>
-              Projects included:<br>
-              Game of Thrones<br>
-              Tales from the Borderlands<br>
-              Minecraft: Story Mode<br>
-              The Walking Dead<br>
-              <br>
-              </p>
-              </div>
-            </div>
-          </div>
-        </div>
-              <a id="youtube-link" class="link" href="https://www.youtube.com/watch?v=mFfYxXtJQsg" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Combined Dreamworks/Telltale Reel</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row gx-5"><br><br></div>
-      <div class="row gx-5">
-        <div class="container.col-2 px-4"> <img class="left-logo" src="img/dwa_logo.png" alt="dwa_logo"> </div>
-        <div class="container.col-6 px-4">
-          <div class="container">
-            <div class="col-lg-12">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingSeven">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        <i class="accordion_icon fa fa-plus"></i> <b>PDI Dreamworks: </b>Layout Lead, Senior Layout Artist
-                      </a>
-                    </h4>
-                  </div>
-                  <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-                    <div class="panel-body"> <p class="custom-paragraph"><b>2007-2015 </b><br>• Supervised 5-10 person in-house and remote creative teams to deliver and support 3D media products.<br>
-              • Collaborated with directors and cross-functional department supervisors to manage technical problem-solving and creative 
-              production for brand specific animated cinematics. <br>
-              • Developed workflows and programmed tools in MEL and Python to integrate emerging technology into existing animation and motion capture pipelines. <br>
-              • Managed motion capture user experience sessions, acted as client-facing demonstrator capturing voice of the customer for 
-              corporate investors and media groups. <br>
-              • Artist duties included previs and final layout, animating cameras and blocking characters, composing set dressing, setting stereo, 
-              editing playlists, scripting tools, meeting regularly with directors and art supervisors, and executing technical shot setup.<br>
-              • Projects included media for the Classic Media, Madagascar, and How to Train Your Dragon franchises. <br>
-              <br>
-              Penguins of Madagascar (Final Layout/Camera), B.O.O.: Bureau of Otherworldly Operations (Final Layout/Camera),<br>
-              Peabody and Sherman (Final Layout/Camera), Turbo (Final Layout/Camera), Penguins (Character Rigging), <br>
-              Rocky and Bullwinkle (Final Layout/Camera), Kung Fu Panda: Arena Spectacular (Final Layout/Camera), <br>
-              Madagascar 3 (Final Layout/Camera), Dragons: Gift of the Night Fury (Final Layout Lead/Camera), <br>
-              Megamind/Megamind: The Button of Doom (Rough/Final Layout/Camera), How to Train Your Dragon (Final Layout/Camera), <br>
-              Merry Madagascar (Rough Layout), Madagascar 2 (Final Layout/Camera), Bee Movie (Final Layout/Camera)<br>
-              <br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-              <a id="youtube-link" class="link" href="https://www.youtube.com/watch?v=EeG7rdieyS4" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Dreamworks Layout/Camera/Set Work</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row gx-5"><br><br></div>
-    <div class="row gx-5">
-      <div class="container.col-2 px-4"><img class="left-logo" src="img/sony_logo.png" alt="sony_logo"></div>
-      <div class="container.col-6 px-4">
-        <div class="container">
-          <div class="col-lg-12">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingEight">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                      <i class="accordion_icon fa fa-plus"></i> <b>Sony Imageworks, Sony Animation: </b>Layout Artist
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-                  <div class="panel-body"><p class="custom-paragraph"><b>2005-2007 </b><br>• Collaborated with directors, producers, and departments leads to create previs for animated feature films.<br>
-              • Animated cameras and characters, cleaned and integrated motion capture data, composed set dressing, edited playlists, and 
-              executed technical shot setup. <br>
-              • Developed the studio camera capture pipeline and scripted associated tools in MEL and Python. <br>
-              <br>
-              Beowulf 3D (Stereo Camera TD)<br>
-              Spiderman 3 (Camera TD)<br>
-              Surf's Up (Rough/Final Layout/Camera) <br>
-              Monster House (Final Layout/Motion Integration/Motion Editing)<br>
-              <br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-              <a id="youtube-link" class="link" href="https://www.youtube.com/watch?v=fVaqp_fUYCE" target="_blank">
-                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                <span class="roboto-mono">Sony/Early Dreamworks Layout Work</span>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row gx-5"><br><br></div>
-    <div class="row gx-5">
-      <div class="container.col-2 px-4"><img class="left-logo" src="img/usaf_logo.png" alt="usaf_logo"></div>
-      <div class="container.col-6 px-4">
-        <div class="container">
-          <div class="col-lg-12">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingNine">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                      <i class="accordion_icon fa fa-plus"></i> <b>USAF: </b>First Pilot, C5</a>
-                    </h4>
-                  </div>
-                  <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
-                    <div class="panel-body"><p class="custom-paragraph"><b>1998-2002</b><br>• Piloted 3rd largest airframe in the world and supervised the maintenance and operation of an $85M <br>
-              airframe on multiple global humanitarian and cargo transport missions. <br>
-              • Coordinated with foreign customs and air traffic organizations to facilitate the delivery of thousands of troops and materiel <br>
-              valued at $100M+ to military bases. <br>
-              • Organized, scheduled, and managed multiple aircrews of up to 20 personnel. <br>
-              • Developed and implemented mission plans and cargo delivery schedules.             
-            </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-        <hr>
-        <br>
+        <!-- Skills Section -->
+        <section class="section-header">
+            <h2>Skills</h2>
+        </section>
 
-    <h2>Skills</h2>
-    <div class="row gx-5"><br></div>
-    <div class="row gx-5">
-      <div class="container.col-6 px-4">
-        <div class="container">
-          <div class="col-md-8">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingFiveteen">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFiveteen" aria-expanded="false" aria-controls="collapseFiveteen">
-                      <i class="accordion_icon fa fa-minus"></i> People Management Skills</a>
-                    </h4>
-                  </div>
-                  <div id="collapseFiveteen" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingFiveteen">
-                    <div class="panel-body"><p class="custom-paragraph">• Creative Leadership (PDI Dreamworks, Viscira)<br>• Cross-functional Leadership (Viscira, Lucasfilm, Meta)<br>
-                      • Project Management (PDI Dreamworks, Viscira, Lucasfilm, Meta, Pixar)<br>• Product Management (Viscira, Lucasfilm, Meta) <br>• Program Management (Air Force, Lucasfilm, Meta) <br>
-                      • Training (Air Force, PDI Dreamworks, Viscira, Lucasfilm, Meta, Pixar)<br>• Technical Support (PDI Dreamworks, Viscira, Lucasfilm, Meta, Pixar)<br>• Vender Support (Viscira, Lucasfilm, Meta) 
-                      <br>• Global Aircrew Management (Air Force)<br>
-                    </p>
-                  </div>
+        <div class="skills-grid">
+            <div class="bento-card card-skill">
+                <div class="skill-icon">👥</div>
+                <h3>People Management</h3>
+                <div class="skill-tags">
+                    <span class="tag">Creative Leadership</span>
+                    <span class="tag">Project Management</span>
+                    <span class="tag">Product Management</span>
+                    <span class="tag">Training</span>
+                    <span class="tag">Technical Support</span>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    <div class="row gx-5">
-      <div class="container.col-6 px-4">
-        <div class="container">
-          <div class="col-md-8">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTen">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                      <i class="accordion_icon fa fa-plus"></i> Programming</a>
-                    </h4>
-                  </div>
-                  <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-                    <div class="panel-body"><p class="custom-paragraph">• Python <br>• Javascript <br>• C# <br>• USD <br>• SQL <br>• Shader Code (HLSL/GLSL/Shaderlab) 
-                      <br>• Web Development (HTML/CSS)<br>• VEX<br>• MEL<br>• LUA<br>• UNIX<br>• Lisp<br>• Pascal<br>• Basic<br>• Visual Scripting (Blueprints)
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      <div class="row gx-5">
-        <div class="container.col-6 px-4">
-          <div class="container">
-            <div class="col-md-8">
-              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="panel panel-default">
-                  <div class="panel-heading" role="tab" id="headingEleven">
-                    <h4 class="panel-title">
-                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                        <i class="accordion_icon fa fa-plus"></i> 2D/3D Content Applications</a>
-                      </h4>
-                    </div>
-                    <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
-                      <div class="panel-body"><p class="custom-paragraph">• Maya <br>• Modo <br>• Adobe Creative Suite (Photoshop/Illustrator/Dreamweaver/After Effects/Premiere Pro)<br>• Nuke <br>• Blender<br>• Katana <br>
-                        • Houdini<br>• Avid Media Composer<br>• Figma<br>• Final Cut Pro<br>• 3d Studio Max<br>• Motionbuilder<br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="row gx-5">
-          <div class="container.col-6 px-4">
-            <div class="container">
-              <div class="col-md-8">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwelve">
-                      <h4 class="panel-title">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                          <i class="accordion_icon fa fa-plus"></i> Production Artist Experience</a>
-                        </h4>
-                      </div>
-                      <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
-                        <div class="panel-body"><p class="custom-paragraph">• Previs <br>• Layout <br>• Game Cinematics <br>• Story <br>• Animation <br>• Motion Capture <br>
-                          • Editing<br>• Matchmoving<br>• Story <br>• Modeling<br>• Rigging<br>• FX <br>• Lighting<br>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="row gx-5">
-            <div class="container.col-6 px-4">
-              <div class="container">
-                <div class="col-md-8">
-                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingThirteen">
-                        <h4 class="panel-title">
-                          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                            <i class="accordion_icon fa fa-plus"></i> Real Time</a>
-                          </h4>
-                        </div>
-                        <div id="collapseThirteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThirteen">
-                          <div class="panel-body"><p class="custom-paragraph">• Unreal <br>• Unity <br>• Spark 
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="row gx-5">
-              <div class="container.col-6 px-4">
-                <div class="container">
-                  <div class="col-md-8">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingSixteen">
-                          <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                              <i class="accordion_icon fa fa-plus"></i> Project Management/Versioning Software/Operating Systems</a>
-                            </h4>
-                          </div>
-                          <div id="collapseSixteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSixteen">
-                            <div class="panel-body"><p class="custom-paragraph">• Perforce<br>• Git / Guthub<br>• JIRA<br>• Confluence<br>• Slack<br>• Google Suite<br>
-                              • Shotgrid<br>• Asana<br>• Linux (Redhat/Ubuntu/CentOS)<br>• iOS<br>• Windows<br>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="row gx-5">
-                <div class="container.col-6 px-4">
-                  <div class="container">
-                    <div class="col-md-8">
-                      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                          <div class="panel-heading" role="tab" id="headingSeventeen">
-                            <h4 class="panel-title">
-                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
-                                <i class="accordion_icon fa fa-plus"></i> Motion Capture</a>
-                              </h4>
-                            </div>
-                            <div id="collapseSeventeen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeventeen">
-                              <div class="panel-body"><p class="custom-paragraph">• Vicon <br>• Motion Analysis (MAC) <br>• Intersense <br>• Highball <br>• OptiTrack <br>• Blade <br>• DIVA <br>
-                                • IQ <br>• EvaRT <br>• Solver <br>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                </div>
-            <div class="row gx-5">
-              <div class="container.col-6 px-4">
-                <div class="container">
-                  <div class="col-md-8">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                      <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThirteen">
-                          <h4 class="panel-title">
-                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                              <i class="accordion_icon fa fa-plus"></i> Aviation</a>
-                            </h4>
-                          </div>
-                          <div id="collapseFourteen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourteen">
-                            <div class="panel-body"><p class="custom-paragraph">• PPL<br>• IFR <br>• Multi<br> • Commercial<br>• Beechjet 400 rating (BE-400/MU-300)<br>• Military Ratings: C-5/C-5A Galaxy, T37 Tweet (Cessna 318)<br>• Civilian Experience: Cessna 152/172, Piper PA-28<br>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              </div>
 
-              <hr>
-              <br>
-      
-          <h2>Education</h2>
-          <div class="row gx-5"><br></div>
-          <div class="row gx-5">
-            <div class="container.col-6 px-4">
-              <div class="container">
-                <div class="col-md-8">
-                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                    <div class="panel panel-default">
-                      <div class="panel-heading" role="tab" id="headingEighteen">
-                        <h4 class="panel-title">
-                          <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
-                            <i class="accordion_icon fa fa-minus"></i> Degrees and Training</a>
-                          </h4>
-                        </div>
-                        <div id="collapseEighteen" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingEighteen">
-                          <div class="panel-body"><p class="custom-paragraph">• UC Berkeley - Haas Business School (8/93-5/97) B.S. Degree, Business Administration<br>
-                            • Academy of Art (1/03-8/03) Courses Completed in Animation, Illustration, Editing, and Film Production.<br>• Gnomon School of Visual Effects (1/05-1/07) Courses Completed in Animation, Compositing, 
-                            Advanced MEL Scripting, and Rigging.<br>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="bento-card card-skill">
+                <div class="skill-icon">💻</div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Javascript</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">USD</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">HLSL/GLSL</span>
+                    <span class="tag">VEX</span>
+                    <span class="tag">MEL</span>
+                    <span class="tag">LUA</span>
                 </div>
-              </div>
             </div>
+
+            <div class="bento-card card-skill">
+                <div class="skill-icon">🎨</div>
+                <h3>3D Applications</h3>
+                <div class="skill-tags">
+                    <span class="tag">Maya</span>
+                    <span class="tag">Houdini</span>
+                    <span class="tag">Blender</span>
+                    <span class="tag">Katana</span>
+                    <span class="tag">Nuke</span>
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">After Effects</span>
+                </div>
             </div>
-          <div class="row gx-5"><br><br></div>
-          <div class="row gx-5"><br><br></div>
-          <div class="row gx-5"><br><br></div>
 
-        </body>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/peterwupson/">LinkedIn</a>
-      <a class="btn" href="mailto:peterupson.work@gmail.com">Contact Me</a>
-      <a class="footer-link" href="https://www.imdb.com/name/nm1849644/">IMDB</a>
-      <p>© 2024 Pete Upson</p>
-    </div>
+            <div class="bento-card card-skill">
+                <div class="skill-icon">🎬</div>
+                <h3>Production Artist</h3>
+                <div class="skill-tags">
+                    <span class="tag">Previs</span>
+                    <span class="tag">Layout</span>
+                    <span class="tag">Animation</span>
+                    <span class="tag">Motion Capture</span>
+                    <span class="tag">Modeling</span>
+                    <span class="tag">Rigging</span>
+                    <span class="tag">FX</span>
+                    <span class="tag">Lighting</span>
+                </div>
+            </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>$('.panel-title > a').click(function() {
-      $(this).parents('.panel-default').find('i').toggleClass('fa-plus fa-minus');
-      $(this).parents('.panel-default').siblings('.panel-default').find('i').removeClass('fa-minus').addClass('fa-plus')
-    
-    });</script>
+            <div class="bento-card card-skill">
+                <div class="skill-icon">🎮</div>
+                <h3>Real Time</h3>
+                <div class="skill-tags">
+                    <span class="tag">Unreal</span>
+                    <span class="tag">Unity</span>
+                    <span class="tag">Spark</span>
+                </div>
+            </div>
 
+            <div class="bento-card card-skill">
+                <div class="skill-icon">🛠️</div>
+                <h3>Tools & Systems</h3>
+                <div class="skill-tags">
+                    <span class="tag">Perforce</span>
+                    <span class="tag">Git/GitHub</span>
+                    <span class="tag">JIRA</span>
+                    <span class="tag">Shotgrid</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">Windows</span>
+                </div>
+            </div>
+
+            <div class="bento-card card-skill">
+                <div class="skill-icon">✈️</div>
+                <h3>Aviation</h3>
+                <div class="skill-tags">
+                    <span class="tag">PPL</span>
+                    <span class="tag">IFR</span>
+                    <span class="tag">Multi</span>
+                    <span class="tag">Commercial</span>
+                    <span class="tag">C-5 Galaxy</span>
+                    <span class="tag">Beechjet 400</span>
+                </div>
+            </div>
+
+            <div class="bento-card card-skill">
+                <div class="skill-icon">🎥</div>
+                <h3>Motion Capture</h3>
+                <div class="skill-tags">
+                    <span class="tag">Vicon</span>
+                    <span class="tag">Motion Analysis</span>
+                    <span class="tag">OptiTrack</span>
+                    <span class="tag">Blade</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <section class="section-header">
+            <h2>Education</h2>
+        </section>
+
+        <div class="education-grid">
+            <div class="bento-card card-education">
+                <div class="education-icon">🎓</div>
+                <h3>UC Berkeley - Haas Business School</h3>
+                <p class="degree">B.S. Business Administration</p>
+                <p class="dates">1993-1997</p>
+            </div>
+
+            <div class="bento-card card-education">
+                <div class="education-icon">🎨</div>
+                <h3>Academy of Art</h3>
+                <p class="degree">Animation, Illustration, Film Production</p>
+                <p class="dates">2003</p>
+            </div>
+
+            <div class="bento-card card-education">
+                <div class="education-icon">🎬</div>
+                <h3>Gnomon School of Visual Effects</h3>
+                <p class="degree">Animation, Compositing, MEL Scripting, Rigging</p>
+                <p class="dates">2005-2007</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/peterwupson/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/pupson" target="_blank">Github</a>
+                <a href="https://www.imdb.com/name/nm1849644/" target="_blank">IMDB</a>
+                <a href="mailto:peterupson.work@gmail.com">Contact Me</a>
+            </div>
+            <p class="copyright">© 2024 Pete Upson</p>
+        </div>
+    </footer>
+</body>
 </html>
